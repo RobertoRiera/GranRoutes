@@ -1,0 +1,17 @@
+body{
+    background: chocolate;
+}
+
+div h2{
+    color:beige;
+}
+
+div{
+    height: 100px;
+    width: 40%;
+    color:darkslateblue;
+    background: dodgerblue;
+    margin:5px 10px;
+    border:5px solid;
+    display: inline-block;
+}
