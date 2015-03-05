@@ -1,0 +1,13 @@
+
+body {margin:0;padding:0;background:#ffffff;font-family:Arial,sans-serif;font-size:12px;color:#464651}
+p, ul {line-height:250%;text-align:left}
+
+#logo {width:90%;height:300px;padding-top:10px;background:url(images/img08.jpg) left bottom}
+#logo p {font-family: Georgia, serif;font-size:12px;text-decoration:none;padding-left: 15% ;color:#01AEB8}
+#logo a {font-size:48px;padding-left:10%;text-decoration:none;color:#01AEB8}
+
+#menu {width:100%;margin-left: 10%;}
+#menu ul {list-style:none}
+#menu a {float:left; text-decoration:none;font-size:20px}
+
+#page {width:90%;margin-left: 10%}

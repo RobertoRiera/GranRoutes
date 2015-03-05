@@ -1,0 +1,42 @@
+
+body {margin:0;padding:0;background:#ffffff;font-family:Arial,sans-serif;font-size:12px;color:#464651}
+p, ul {line-height:250%;text-align:justify}
+span {font-weight: bold}
+img {margin: 20px 50px 25px 0px;}
+
+#logo {width:100%;height:300px;padding-top:10px;background:url(images/img08.jpg) no-repeat left bottom}
+#logo p {font-family: Georgia, serif;font-size:12px;padding-left: 11% ;color:#01AEB8}
+#logo h1 a{text-decoration:none;font-size:48px;padding-left:10%;color:#01AEB8;text-shadow: 1px 1px 0 gray}
+
+#menu {width:100%;}
+#menu ul {list-style:none}
+#menu a {float:left; text-decoration:none;font-size:20px;padding-left: 15%;color:#01AEB8}
+
+#page {width:90%;margin-left: 10%}
+
+#content {float:left;width:50%}
+
+#titulo{text-align: center}
+
+
+.post h2 {text-decoration:none;font-size:30px;color:#01AEB8}
+.post .title {background:url(images/gran-canaria2.png) no-repeat left;padding-left: 45px}
+
+
+#sidebar {float:left;width:40%;}
+#sidebar ul {margin-left:20%;list-style:none}
+#sidebar li {margin-top:30px}
+#sidebar li li {margin:0;padding:10px 0 10px 20px;background:url(images/Flecha.png) no-repeat left}
+#sidebar a {text-decoration:none;font-weight:bold;color:#01AEB8}
+
+#footer {clear:both;width: 100%;height:100px;background: linear-gradient(to bottom, #ffffff, #01AEB8)}
+
+#tabla{width: 150%;margin : 40px auto 40px 50px;border-collapse: collapse}
+#tabla th {border: solid 2px #01AEB8;color: dimgray}
+#tabla td {text-align: center;border: transparent;color: dimgray}
+#tabla .tdBorder{border-bottom: solid 1px #01AEB8}
+
+@media print {
+    #logo, #menu, #sidebar, #footer{display: none}
+    #content{width: 90%}
+}
